@@ -276,7 +276,7 @@ public class ATMBlockTags extends BlockTagsProvider {
                 .forEach(blockRegistryObject -> {
                     tag(TagRegistry.OTHER_PROTECTION).add(blockRegistryObject.get());
                 });
-        tag(TagRegistry.OTHER_PROTECTION).add(Blocks.SAND);
+        /*tag(TagRegistry.OTHER_PROTECTION).add(Blocks.SAND);
         tag(TagRegistry.OTHER_PROTECTION).add(Blocks.SANDSTONE);
         tag(TagRegistry.OTHER_PROTECTION).add(Blocks.CRIMSON_NYLIUM);
         tag(TagRegistry.OTHER_PROTECTION).add(Blocks.WARPED_NYLIUM);
@@ -300,7 +300,7 @@ public class ATMBlockTags extends BlockTagsProvider {
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.VIBRANIUM_ORE.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.OTHER_VIBRANIUM_ORE.get());
         tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.UNOBTAINIUM_ORE.get());
-        tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.TELEPORT_PAD.get());
+        tag(Tags.Blocks.RELOCATION_NOT_SUPPORTED).add(ModRegistry.TELEPORT_PAD.get());*/
 
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(ModRegistry.ANCIENT_STONE.get());        
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(ModRegistry.ANCIENT_STONE_BRICKS.get());
