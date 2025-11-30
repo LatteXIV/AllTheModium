@@ -17,7 +17,7 @@ import net.neoforged.neoforge.common.util.FakePlayer;
 import net.neoforged.neoforge.event.level.BlockEvent;
 
 @EventBusSubscriber(bus=EventBusSubscriber.Bus.GAME, modid = Reference.MOD_ID)
-public class BlockBreak {
+/*public class BlockBreak {
 
 
 	@SubscribeEvent
@@ -69,4 +69,4 @@ public class BlockBreak {
 	}
 
 	
-}
+}*/
